@@ -1,0 +1,7 @@
+/* reset */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:Arial,Helvetica,sans-serif; line-height:1.6; }
+header, nav, main, footer { padding:1rem; }
+nav ul { list-style:none; display:flex; gap:.5rem; }
+nav a { text-decoration:none; color:#333; }
+.btn-primary { background:#007bff; color:#fff; padding:.5rem 1rem; border:none; cursor:pointer; }
